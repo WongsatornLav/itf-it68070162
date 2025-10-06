@@ -13,7 +13,7 @@ body {
     display: flex;
 }
 
-text_title{
+text_title {
     display: flex;
     justify-content: space-evenly;
 }
@@ -22,7 +22,7 @@ AccIn, BaIn, BaOp, FiTo, .header {
     display: flex;
 }
 
-h4,p{
+h4,p {
     margin: 0;
 }
 

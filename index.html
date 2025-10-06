@@ -21,12 +21,12 @@
             <p>Welcome to my first HTML + CSS + JS website!</p>
         </div>
     </div>
-    <div>
+    <!-- <div>
         Enter number: <input type="number" id="my_input" value="0">
         <button onclick="add()">+1</button>
-    </div>
+    </div> -->
     <div class="textarea">
-        <textarea disabled></textarea>
+        <textarea disabled id="result"></textarea>
     </div>
     <text_title>
         
@@ -47,7 +47,7 @@
                     <h4>Balance Information</h4>
                     <p>Current account balance:<input type="number" value="0" id="accountbal"></p>
                     <p>Current cash balance:<input type="number" value="0" id="cashbal"></p>
-                    <button onclick="setinpu()">Change</button>
+                    <button onclick="setBalance()">Change</button>
                 </div>
             </BaIn>
 
@@ -55,12 +55,12 @@
                 <img src="Image/CatMeme02.png" width="100" height="100">
                 <div>
                     <h4>Bank Operation</h4>
-                    <select>
+                    <select id="dropdown">
                         <option>Deposit</option>
                         <option>Withdraw</option>
                     </select>
-                    <input type="number" value="0">
-                    <button>Proceed</button>
+                    <input type="number" value="0" id="bankOp">
+                    <button onclick="bankOp()">Proceed</button>
                 </div>
             </BaOp>
         </front_title>
@@ -72,7 +72,7 @@
                 <div>
                     <h4>Currency Converter</h4>
                     <p>Input balance: <input type="number" value="0"></p>
-                    <p>Output balance: <input type="number" value="0"></p>
+                    <p>Output balance: <input type="number" value="0" disabled></p>
                     <p>Current cash balance:
                         <select>
                             <option>USD</option>

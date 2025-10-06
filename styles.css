@@ -13,20 +13,12 @@ body {
     display: flex;
 }
 
-front_title{
-    background-color: aquamarine;
-}
-
-rear_title{
-    background-color: blueviolet;
-}
-
 text_title{
     display: flex;
     justify-content: space-evenly;
 }
 
-AccIn, BaIn, BaOp, FiTo {
+AccIn, BaIn, BaOp, FiTo, .header {
     display: flex;
 }
 
@@ -37,6 +29,7 @@ h4,p{
 textarea {
     width: 100%;
     height: 200px;
+    resize: none;
 }
 
 .textarea {

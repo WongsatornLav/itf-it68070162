@@ -8,3 +8,37 @@ nav {
 body {
     margin: 0;
 }
+
+.flex-container {
+    display: flex;
+}
+
+front_title{
+    background-color: aquamarine;
+}
+
+rear_title{
+    background-color: blueviolet;
+}
+
+text_title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+AccIn, BaIn, BaOp, FiTo {
+    display: flex;
+}
+
+h4,p{
+    margin: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.textarea {
+    margin-inline: 50px;
+}
